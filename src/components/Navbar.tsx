@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
-import { personalInfo } from '../data/portfolioData';
 
 export default function Navbar({ darkMode, setDarkMode }: { darkMode: boolean, setDarkMode: (v: boolean) => void }) {
   const [isOpen, setIsOpen] = useState(false);
